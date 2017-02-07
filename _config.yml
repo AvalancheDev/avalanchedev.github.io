@@ -1,0 +1,33 @@
+# Site settings
+## Change the values as needed.
+title: Avalanche Dev
+email: avalanche@avalancheoncall.com
+description: "Creating a new market for on-demand snow plowing"
+keywords: "snow removal, on demand, avalanche"
+#url: "http://bitwiser.in/bitwiser-material" # the base hostname & protocol for your site
+url: "https://avalanchedev.github.io" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog/
+paginate: 5
+paginate_path: "page:num"
+# Build settings
+markdown: kramdown
+highlighter: pygments
+sass:
+  sass_dir: _sass
+  style: :compressed
+links:
+  facebook: AvalancheOnCall
+  twitter: AvalancheOnCall
+  email: avalanche@avalancheoncall.com
+  github: AvalancheDev
+exclude:
+  - bower_components
+  - README.md
+full_name: Brijesh
+
+##set this to enable disqus commenting
+disqus: bitwiser
+
+##set this to enable google analytics
+#ga_id: analyticsID
+#ga_domain: bitwiser.in
