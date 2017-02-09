@@ -2,7 +2,7 @@
 layout: post
 color: indigo
 title:  "Welcome to Avalanche!"
-date:   2017-07-12 12:00:00
+date:   2017-02-12 12:00:00
 author: Noah
 author_url: https://github.com/nh-99
 ---
