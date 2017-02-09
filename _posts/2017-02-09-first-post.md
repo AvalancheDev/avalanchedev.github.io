@@ -1,8 +1,10 @@
 ---
 layout: post
-color: deep-purple
+color: indigo
 title:  "Welcome to Avalanche!"
 date:   2017-07-12 12:00:00
+author: Noah
+author_url: https://github.com/nh-99
 ---
 
 <p><small>This demo page has been used from <a href="http://jasonm23.github.io/markdown-css-themes/" target="_blank">http://jasonm23.github.io/markdown-css-themes/</a>.</small></p>
