@@ -4,15 +4,17 @@ layout: base
 <body style="padding: 0">
 
   <article class="post-full">
+    {% if page.cover %}
     <header class="bg-holder post-page {% if page.color %}bg-{{ page.color }}{% endif %}" style="{% if page.cover %}background:url({{page.cover}}) no-repeat center center; background-size: cover{% endif %}">
       <a href="{{site.url}}/" class="overlay"><i class="fa fa-home fa-2x"></i></a>
       {% if page.cover %}<div class="img-overlay"></div>{% endif %}
     </header>
+    {% endif %}
     <div class="mui-container mui-panel post-content">
       <h1 class="article-title"><a href="{{page.url}}">{{ page.title }}</a></h1>
       <p class="post-meta">by <a href="{{ site.url }}">{% if page.author %}{{ page.author }}{% else %}{{ site.full_name }}{% endif %}</a> on <time datetime="{{ page.date | date: "%Y-%m-%dT%H:%M" }}"><i class="fa fa-calendar"></i>{{ page.date | date: "%B %-d, %Y" }}</time>
       <span class="sharer">
-        Share on: 
+        Share on:
         <a class="sh-fb" href="#" target="_blank" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u='+window.location.href,'_blank','height=300,width=600');return false;"><i class="fa fa-facebook fa-lg"></i></a>
         {% if site.twitter %}
             <a class="sh-twt" href="#" target="_blank" onclick="window.open('https://twitter.com/share?url='+window.location.href+'&via={{ site.twitter }}','_blank','height=300,width=600');return false;"><i class="fa fa-twitter fa-lg"></i></a>
@@ -43,4 +45,3 @@ layout: base
   {% if site.disqus %}
   <script src="/js/script.js"></script>
   {% endif %}
-

@@ -23,10 +23,7 @@ links:
 exclude:
   - bower_components
   - README.md
-full_name: Brijesh
-
-##set this to enable disqus commenting
-disqus: bitwiser
+full_name: Noah
 
 ##set this to enable google analytics
 #ga_id: analyticsID
