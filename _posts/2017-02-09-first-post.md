@@ -1,8 +1,8 @@
 ---
 layout: post
 color: deep-purple
-title:  "Demo Post"
-date:   2015-07-12 01:55:00
+title:  "Welcome to Avalanche!"
+date:   2017-07-12 12:00:00
 ---
 
 <p><small>This demo page has been used from <a href="http://jasonm23.github.io/markdown-css-themes/" target="_blank">http://jasonm23.github.io/markdown-css-themes/</a>.</small></p>
